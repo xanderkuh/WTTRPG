@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="466.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wttrhp.wttrpg.W_lifepath_Controller">
+   <children>
+      <TabPane layoutX="8.0" layoutY="7.0" prefHeight="466.0" prefWidth="605.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Подготовка">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="w_age" layoutY="14.0" prefWidth="212.0" promptText="Когда вы стали ведьмаком?" />
+                        <Button fx:id="roll1" layoutX="212.0" layoutY="14.0" mnemonicParsing="false" text="Брось d10" />
+                        <Text fx:id="t1" layoutX="284.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="322.63671875">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <ComboBox fx:id="w_school" layoutY="72.0" prefWidth="212.0" promptText="В какой школе вы обучались?" />
+                        <Button fx:id="roll2" layoutX="212.0" layoutY="72.0" mnemonicParsing="false" text="Брось d10" />
+                        <Text fx:id="t2" layoutX="284.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="322.13671875">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <ComboBox fx:id="w_trainings" layoutY="134.0" prefWidth="212.0" promptText="Как прошли тренировки?" />
+                        <Button fx:id="roll3" layoutX="212.0" layoutY="134.0" mnemonicParsing="false" text="Брось d10" />
+                        <Text fx:id="t3" layoutX="285.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="320.63671875">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <ComboBox fx:id="w_herb_test" layoutY="203.0" prefWidth="212.0" promptText="Как прошли испытания?" />
+                        <Button fx:id="roll4" layoutX="212.0" layoutY="203.0" mnemonicParsing="false" text="Брось d10" />
+                        <Text fx:id="t4" layoutX="284.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="321.13671875">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <ComboBox fx:id="w_main_event" layoutY="272.0" prefWidth="212.0" promptText="Самое важное событие" />
+                        <Button fx:id="roll5" layoutX="212.0" layoutY="272.0" mnemonicParsing="false" text="Брось d10" />
+                        <Text fx:id="t5" layoutX="284.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="320.63671875">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <ComboBox fx:id="w_now" layoutY="339.0" prefWidth="212.0" promptText="Каково ваше нынешнее положение?" />
+                        <Button fx:id="roll6" layoutX="212.0" layoutY="339.0" mnemonicParsing="false" text="Брось d10" />
+                        <Text fx:id="t6" layoutX="284.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="317.13671875">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="События">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TabPane layoutX="7.0" prefHeight="437.0" prefWidth="605.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <tabs>
+                            <Tab text="Выбор">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <ComboBox fx:id="l1" disable="true" layoutX="14.0" layoutY="14.0" prefWidth="150.0" promptText="20-30 лет" />
+                                          <ComboBox fx:id="l2" disable="true" layoutX="14.0" layoutY="54.0" prefWidth="150.0" promptText="30-40 лет" />
+                                          <ComboBox fx:id="l3" disable="true" layoutX="14.0" layoutY="93.0" prefWidth="150.0" promptText="40-50  лет" />
+                                          <ComboBox fx:id="l4" disable="true" layoutX="14.0" layoutY="128.0" prefWidth="150.0" promptText="50-60  лет" />
+                                          <ComboBox fx:id="l5" disable="true" layoutX="14.0" layoutY="168.0" prefWidth="150.0" promptText="60-70 лет" />
+                                          <ComboBox fx:id="l6" disable="true" layoutX="14.0" layoutY="207.0" prefWidth="150.0" promptText="70-80 лет" />
+                                          <ComboBox fx:id="l9" disable="true" layoutX="178.0" layoutY="14.0" prefWidth="150.0" promptText="100-110 лет" />
+                                          <ComboBox fx:id="l10" disable="true" layoutX="178.0" layoutY="54.0" prefWidth="150.0" promptText="110-120 лет" />
+                                          <ComboBox fx:id="l11" disable="true" layoutX="178.0" layoutY="93.0" prefWidth="150.0" promptText="120-130 лет" />
+                                          <ComboBox fx:id="l12" disable="true" layoutX="178.0" layoutY="128.0" prefWidth="150.0" promptText="130-140 лет" />
+                                          <ComboBox fx:id="l13" disable="true" layoutX="178.0" layoutY="168.0" prefWidth="150.0" promptText="140-150 лет" />
+                                          <ComboBox fx:id="l14" disable="true" layoutX="178.0" layoutY="207.0" prefWidth="150.0" promptText="150-160 лет" />
+                                          <ComboBox fx:id="l17" disable="true" layoutX="348.0" layoutY="14.0" prefWidth="150.0" promptText="180-190 лет" />
+                                          <ComboBox fx:id="l18" disable="true" layoutX="348.0" layoutY="54.0" prefWidth="150.0" promptText="190-200 лет" />
+                                          <ComboBox fx:id="l19" disable="true" layoutX="348.0" layoutY="93.0" prefWidth="150.0" promptText="200-210 лет" />
+                                          <ComboBox fx:id="l20" disable="true" layoutX="348.0" layoutY="128.0" prefWidth="150.0" promptText="210-220 лет" />
+                                          <ComboBox fx:id="l21" disable="true" layoutX="348.0" layoutY="168.0" prefWidth="150.0" promptText="220-230 лет" />
+                                          <ComboBox fx:id="l22" disable="true" layoutX="348.0" layoutY="207.0" prefWidth="150.0" promptText="230-240 лет" />
+                                          <ComboBox fx:id="l7" disable="true" layoutX="14.0" layoutY="246.0" prefWidth="150.0" promptText="80-90 лет" />
+                                          <ComboBox fx:id="l8" disable="true" layoutX="14.0" layoutY="281.0" prefWidth="150.0" promptText="90-100 лет" />
+                                          <ComboBox fx:id="l23" disable="true" layoutX="348.0" layoutY="246.0" prefWidth="150.0" promptText="240-250 лет" />
+                                          <ComboBox fx:id="l15" disable="true" layoutX="178.0" layoutY="246.0" prefWidth="150.0" promptText="160-170" />
+                                          <ComboBox fx:id="l24" disable="true" layoutX="348.0" layoutY="281.0" prefWidth="150.0" promptText="250-260" />
+                                          <ComboBox fx:id="l16" disable="true" layoutX="178.0" layoutY="281.0" prefWidth="150.0" promptText="170-180 лет" />
+                                          <Button fx:id="choice_butt" layoutX="14.0" layoutY="326.0" mnemonicParsing="false" text="Узнать последствия" />
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                            <Tab text="Последствия">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="134.0" layoutY="95.0" prefHeight="408.0" prefWidth="852.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-247.0" AnchorPane.topAnchor="0.0">
+                                             <content>
+                                                <GridPane fx:id="conviction" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="23.0" prefWidth="602.0">
+                                                  <columnConstraints>
+                                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="116.5" minWidth="0.0" prefWidth="0.0" />
+                                                    <ColumnConstraints fx:id="dangerous" hgrow="SOMETIMES" maxWidth="338.0" minWidth="6.5" prefWidth="80.5" />
+                                                      <ColumnConstraints fx:id="benefit" hgrow="SOMETIMES" maxWidth="492.5" minWidth="10.0" prefWidth="151.5" />
+                                                      <ColumnConstraints fx:id="ally" hgrow="SOMETIMES" maxWidth="321.0" minWidth="10.0" prefWidth="116.5" />
+                                                      <ColumnConstraints fx:id="hunt" hgrow="SOMETIMES" maxWidth="285.0" minWidth="3.5" prefWidth="135.0" />
+                                                      <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="376.5" minWidth="10.0" prefWidth="129.5" />
+                                                  </columnConstraints>
+                                                  <rowConstraints>
+                                                    <RowConstraints fx:id="d1" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                  </rowConstraints>
+                                                </GridPane>
+                                             </content>
+                                          </ScrollPane>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                          </tabs>
+                        </TabPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

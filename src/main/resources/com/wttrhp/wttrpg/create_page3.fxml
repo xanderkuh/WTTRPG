@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <TabPane prefHeight="400.0" prefWidth="607.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab id="tab1" text="Навыки профессии">
+               <content>
+                  <AnchorPane prefHeight="251.0" prefWidth="541.0">
+                     <children>
+                        <Label fx:id="prof_skill1" layoutY="32.0" prefHeight="19.0" prefWidth="71.0" />
+                        <Button fx:id="prof_down1" layoutX="144.0" layoutY="30.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up1" layoutX="165.0" layoutY="30.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt1" layoutX="89.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill2" layoutY="61.0" prefHeight="19.0" prefWidth="71.0" />
+                        <Button fx:id="prof_down2" layoutX="144.0" layoutY="58.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up2" layoutX="165.0" layoutY="58.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt2" layoutX="89.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill3" layoutY="106.0" prefHeight="19.0" prefWidth="71.0" />
+                        <Button fx:id="prof_down3" layoutX="144.0" layoutY="100.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up3" layoutX="165.0" layoutY="100.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt3" layoutX="89.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill4" layoutY="137.0" prefHeight="19.0" prefWidth="83.0" />
+                        <Button fx:id="prof_down4" layoutX="144.0" layoutY="131.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up4" layoutX="165.0" layoutY="131.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt4" layoutX="89.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill5" layoutY="175.0" prefHeight="19.0" prefWidth="71.0" />
+                        <Button fx:id="prof_down5" layoutX="144.0" layoutY="169.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up5" layoutX="165.0" layoutY="169.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt5" layoutX="89.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill6" layoutY="206.0" prefHeight="19.0" prefWidth="71.0" />
+                        <Button fx:id="prof_down6" layoutX="144.0" layoutY="200.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up6" layoutX="165.0" layoutY="200.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt6" layoutX="89.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill7" layoutY="243.0" prefHeight="19.0" prefWidth="71.0" />
+                        <Button fx:id="prof_down7" layoutX="144.0" layoutY="237.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up7" layoutX="165.0" layoutY="237.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt7" layoutX="89.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill8" layoutY="274.0" prefHeight="19.0" prefWidth="71.0" />
+                        <Button fx:id="prof_down8" layoutX="144.0" layoutY="268.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up8" layoutX="165.0" layoutY="268.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt8" layoutX="89.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill9" layoutX="212.0" layoutY="30.0" prefHeight="19.0" prefWidth="58.0" />
+                        <Button fx:id="prof_down9" layoutX="313.0" layoutY="29.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up9" layoutX="334.0" layoutY="29.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt9" layoutX="278.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="235.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Очков осталось:" wrappingWidth="84.42236328125">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="points1" fill="#e60000" layoutX="321.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="33">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill10" layoutX="212.0" layoutY="58.0" prefHeight="19.0" prefWidth="71.0" />
+                        <Button fx:id="prof_down10" layoutX="313.0" layoutY="58.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up10" layoutX="334.0" layoutY="58.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt10" layoutX="278.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="prof_skill11" layoutX="212.0" layoutY="106.0" prefHeight="19.0" prefWidth="58.0" />
+                        <Button fx:id="prof_down11" layoutX="313.0" layoutY="100.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" text="-" />
+                        <Button fx:id="prof_up11" layoutX="334.0" layoutY="100.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="31.0" text="+" />
+                        <Text fx:id="prof_txt11" layoutX="278.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="next_button" layoutX="502.0" layoutY="313.0" mnemonicParsing="false" text="Далее" />
+                        <Button fx:id="back_button" layoutX="31.0" layoutY="313.0" mnemonicParsing="false" text="Назад" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
